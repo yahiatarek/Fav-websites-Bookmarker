@@ -1,0 +1,21 @@
+.all {
+  background-color: #eee;
+}
+.formInputs label {
+  font-weight: bold;
+  color: #333;
+}
+.formInputs input:hover {
+  box-shadow: 0px 0px 12px -7px #888;
+}
+.ourData {
+  background-image: linear-gradient(#eee, white);
+}
+.lastPart h6 {
+  color: #aaa;
+}
+.messageDiv input {
+  background-color: #ffb2b2 !important;
+  color: #6d0000 !important;
+  border: 1px solid #6d0000 !important;
+}

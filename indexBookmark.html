@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="js/jquery-3.5.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bookmarker.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bookmark system</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row border-bottom py-3">
+        <div class="col-md-4">
+          <h1>Bookmarker</h1>
+        </div>
+      </div>
+      <div class="all p-5 my-3">
+        <div class="row justify-content-center mb-3">
+          <div class="col-md-5">
+            <h3>Bookmark your favorite sites</h3>
+          </div>
+        </div>
+        <div class="row m-auto justify-content-center">
+          <div class="col-md-12 text-center formInputs">
+            <label for="siteName">Site Name </label>
+            <input
+              type="text"
+              id="siteName"
+              class="form-group form-control"
+              placeholder="Enter website Name"
+            />
+            <div class="messageDiv" id="messageInvalidName"></div>
+            <label for="siteUrl">Site URL </label>
+            <input
+              type="url"
+              id="siteUrl"
+              placeholder="Enter web URL"
+              class="form-group form-control"
+            />
+            <div class="messageDiv" id="messageInvalidURL"></div>
+            <button id="Submit" class="btn btn-info">Submit</button>
+          </div>
+        </div>
+      </div>
+      <div id="myStoredDivs" class="storedDivs"></div>
+      <div class="lastPart border-top py-3">
+        <h6>© 2019 Bookmarker Inc.</h6>
+      </div>
+    </div>
+    <script src="js/bookmark.js"></script>
+  </body>
+</html>
